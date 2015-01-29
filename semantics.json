@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Room name",
+    "name": "appearRoom",
+    "type": "text",
+    "default": "h5p",
+    "description": "Name of the appear.in room"
+  },
+  {
+    "label": "Height",
+    "name": "appearHeight",
+    "type": "number",
+    "default": "400",
+    "description": "Set Height of chat/talk room"
+  },
+  {
+    "label": "Width",
+    "name": "appearWidth",
+    "type": "number",
+    "default": "550",
+    "description": "Set Width of chat/talk room"
+  }
+]
