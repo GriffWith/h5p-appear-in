@@ -26,7 +26,7 @@ H5P.AppearIn = (function ($) {
    */
   C.prototype.attach = function ($container) {
     var self = this;
-    // Set class on container to identify it as a Page Facebook feed
+    // Set class on container to identify it as a appear.in
     // container.  Allows for styling later.
     $container.addClass("h5p-appear-in");
   
