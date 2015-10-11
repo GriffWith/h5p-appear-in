@@ -1,7 +1,7 @@
 var H5P = H5P || {};
 
 H5P.AppearIn = (function ($) {
-  
+
   /**
    * Constructor function.
    */
@@ -15,7 +15,7 @@ H5P.AppearIn = (function ($) {
     }, options);
     // Keep provided id.
     this.contentId = contentId;
-};
+  }
 
   /**
    * Attach function called by H5P framework to insert H5P content into
@@ -27,7 +27,7 @@ H5P.AppearIn = (function ($) {
     // Set class on container to identify it as a appear.in
     // container.  Allows for styling later.
     $container.addClass("h5p-appear-in");
-  
+
     var iframeParams = {
       src: "https://appear.in/" + this.options.appearRoom
     };
@@ -35,7 +35,7 @@ H5P.AppearIn = (function ($) {
       iframeParams.width = this.options.appearWidth;
       iframeParams.height = this.options.appearHeight;
     }
-  
+
     // Creates the Box wrapper
     var content = $('<iframe/>', iframeParams);
     if (this.options.fitToContainer) {
