@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Nome da sala",
+    "description": "Nome da sala appear.in"
+  },
+  {
+    "label": "Axustar ao contedor",
+    "description": "Crear o espazo necesario para o axuste ao contedor, anula calquera valor de altura e anchura definidos con valores do 100%."
+  },
+  {
+    "label": "Altura",
+    "description": "Establece a altura da sala"
+  },
+  {
+    "label": "Anchura",
+    "description": "Establece a anchura da sala"
+  }
+]
